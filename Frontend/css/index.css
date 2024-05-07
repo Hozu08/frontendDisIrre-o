@@ -11,3 +11,18 @@ input[type='number']::-webkit-outer-spin-button{
     margin: 0;
 }
 
+.tb {
+    overflow-y:auto;
+    display: flex;
+    max-height: 230px;
+}
+
+.tb::-webkit-scrollbar{
+    width: 5px;
+    background-color: lavender;
+}
+
+.tb::-webkit-scrollbar-thumb{
+    background-color:lightskyblue;
+    border-radius: 3px;
+}
